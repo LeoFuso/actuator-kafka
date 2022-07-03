@@ -13,7 +13,7 @@ It is available both on JitPack's and on Maven Central.
 ```maven
 <dependency>
   <groupId>io.github.leofuso</groupId>
-  <artifactId>autoconfigure-actuator-kafka</artifactId>
+  <artifactId>actuator-kafka</artifactId>
   <version>v2.7.0.RELEASE</version>
 </dependency>
 ``` 
