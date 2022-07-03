@@ -13,13 +13,13 @@ It is available both on JitPack's and on Maven Central.
 ```maven
 <dependency>
   <groupId>io.github.leofuso</groupId>
-  <artifactId>autoconfigure-actuator-kafka</artifactId>
-  <version>v2.7.0.1-SNAPSHOT</version>
+  <artifactId>actuator-kafka</artifactId>
+  <version>v2.7.0.RELEASE</version>
 </dependency>
 ``` 
 
 The version indicates the compatibility with the Spring Boot. In other worlds, I'll try to keep it up to date with other
-Spring Boot versions, e.g, the `v2.7.x.x.RELEASE` should be compatible with the Spring Boot `2.7.x` version and so on.
+Spring Boot versions, e.g, the `v2.7.x.RELEASE` should be compatible with the Spring Boot `2.7.x` version and so on.
 
 ## Usage
 

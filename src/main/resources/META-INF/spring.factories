@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-io.github.leofuso.autoconfigure.actuator.kafka.KafkaHealthIndicatorAutoConfiguration
+io.github.leofuso.actuator.kafka.KafkaHealthIndicatorAutoConfiguration

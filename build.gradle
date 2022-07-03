@@ -9,7 +9,7 @@ plugins {
 }
 
 group = 'io.github.leofuso'
-version = 'v2.7.0.1-SNAPSHOT'
+version = 'v2.7.0.RELEASE'
 
 
 repositories {
@@ -75,11 +75,11 @@ publishing {
             pom {
                 name = group + ':actuator-kafka'
                 description = 'Spring Boot health-check endpoint for Kafka client.'
-                url = 'https://github.com/leofuso/autoconfigure-actuator-kafka'
+                url = 'https://github.com/leofuso/actuator-kafka'
                 packaging 'jar'
                 issueManagement {
                     system = 'GitHub Issue Tracking'
-                    url = 'https://github.com/leofuso/autoconfigure-actuator-kafka/issues'
+                    url = 'https://github.com/leofuso/actuator-kafka/issues'
                 }
                 licenses {
                     license {
@@ -95,9 +95,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection = 'scm:git:git://github.com/leofuso/autoconfigure-actuator-kafka.git'
-                    developerConnection = 'scm:git:git@github.com:leofuso/autoconfigure-actuator-kafka.git'
-                    url = 'https://github.com/LeoFuso/autoconfigure-actuator-kafka'
+                    connection = 'scm:git:git://github.com/leofuso/actuator-kafka.git'
+                    developerConnection = 'scm:git:git@github.com:leofuso/actuator-kafka.git'
+                    url = 'https://github.com/LeoFuso/actuator-kafka'
                 }
             }
         }
