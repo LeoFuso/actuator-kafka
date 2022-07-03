@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.AutoConfigurations;
 import org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration;
 import org.springframework.boot.test.context.runner.ApplicationContextRunner;
 
-import io.github.leofuso.autoconfigure.actuator.kafka.KafkaHealthIndicator;
-import io.github.leofuso.autoconfigure.actuator.kafka.KafkaHealthIndicatorAutoConfiguration;
+import io.github.leofuso.actuator.kafka.KafkaHealthIndicator;
+import io.github.leofuso.actuator.kafka.KafkaHealthIndicatorAutoConfiguration;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

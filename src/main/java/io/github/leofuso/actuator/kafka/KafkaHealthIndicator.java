@@ -1,7 +1,8 @@
-package io.github.leofuso.autoconfigure.actuator.kafka;
+package io.github.leofuso.actuator.kafka;
 
 import java.time.Duration;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
@@ -41,7 +42,7 @@ public class KafkaHealthIndicator extends AbstractHealthIndicator implements Dis
 	public KafkaHealthIndicator(KafkaAdmin admin, long requestTimeout, boolean considerReplicationFactor) {
 		Assert.notNull(admin, "KafkaAdmin must not be null");
 
-		final Map<String, Object> adminProperties = admin.getConfigurationProperties();
+		final Map<String, Object> adminProperties = new HashMap<>(admin.getConfigurationProperties());
 		final String adminClientIdPrefix = (String) adminProperties
 				.getOrDefault(AdminClientConfig.CLIENT_ID_CONFIG, "default-admin-id");
 

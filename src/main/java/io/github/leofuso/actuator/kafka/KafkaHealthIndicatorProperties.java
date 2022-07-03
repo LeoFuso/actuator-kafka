@@ -1,4 +1,4 @@
-package io.github.leofuso.autoconfigure.actuator.kafka;
+package io.github.leofuso.actuator.kafka;
 
 import java.time.Duration;
 
