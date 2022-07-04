@@ -9,12 +9,22 @@ that aims to provide a simple way of getting health-check functionality for your
 It was inspired by existent functionalities present in the [Spring Cloud Stream](https://spring.io/projects/spring-cloud-stream) project.
 
 ## Dependency
-It is available both on JitPack's and on Maven Central.
+
+Maven Central
 ```maven
 <dependency>
   <groupId>io.github.leofuso</groupId>
   <artifactId>actuator-kafka</artifactId>
-  <version>v2.7.0.RELEASE</version>
+  <version>v2.7.0.2.RELEASE</version>
+</dependency>
+``` 
+
+JitPack
+```maven
+<dependency>
+  <groupId>com.github.leofuso</groupId>
+  <artifactId>actuator-kafka</artifactId>
+  <version>v2.7.0.2.RELEASE</version>
 </dependency>
 ``` 
 
