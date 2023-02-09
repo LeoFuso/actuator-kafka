@@ -1,6 +1,7 @@
 
 # Actuator endpoints for Kafka
 
+[![](https://maven-badges.herokuapp.com/maven-central/io.github.leofuso/actuator-kafka/badge.svg?style=flat)](https://mvnrepository.com/artifact/io.github.leofuso/actuator-kafka)
 [![](https://jitpack.io/v/LeoFuso/actuator-kafka.svg)](https://jitpack.io/#LeoFuso/actuator-kafka)
 
 This is a simple project built on top of Spring Boot's Actuator and [Spring Boot for Apache Kafka project](https://spring.io/projects/spring-kafka/)
@@ -15,7 +16,7 @@ Maven Central
 <dependency>
   <groupId>io.github.leofuso</groupId>
   <artifactId>actuator-kafka</artifactId>
-  <version>v2.7.0.2.RELEASE</version>
+  <version>v3.0.2.0.RELEASE</version>
 </dependency>
 ``` 
 
@@ -24,12 +25,12 @@ JitPack
 <dependency>
   <groupId>com.github.leofuso</groupId>
   <artifactId>actuator-kafka</artifactId>
-  <version>v2.7.0.2.RELEASE</version>
+  <version>v3.0.2.0.RELEASE</version>
 </dependency>
 ``` 
 
 The version indicates the compatibility with the Spring Boot. In other worlds, I'll try to keep it up to date with other
-Spring Boot versions, e.g, the `v2.7.x.RELEASE` should be compatible with the Spring Boot `2.7.x` version and so on.
+Spring Boot versions, e.g, the `v3.0.x.y.RELEASE` should be compatible with the Spring Boot `3.0.x` version and so on.
 
 ## Usage
 
